@@ -16,13 +16,8 @@ namespace Zoo.Class
 
         public bool EatKrill()
         {
-            Console.WriteLine("");
+            Console.WriteLine("Penguins eat Krill");
             return true;
-        }
-
-        public override void EatWorms()
-        {
-            Console.WriteLine("Penguins ");
         }
     }
 }

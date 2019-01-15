@@ -15,6 +15,6 @@ namespace Zoo.Class
             Console.WriteLine("Birds eat Worms");
         }
 
-        abstract public string CanFly();
+        abstract public bool CanFly();
     }
 }

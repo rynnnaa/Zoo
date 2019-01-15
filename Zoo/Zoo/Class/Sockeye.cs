@@ -8,12 +8,17 @@ namespace Zoo.Class
     {
         public string IsRed { get; set; }
         public override string ColdBlooded { get; set; }
+        public override string Heterotrophy{ get; set; }
+
         public bool GoodSushi()
         {
             return true;
         }
 
-        public override string WarmBlooded { get; set; }
-
+        public override bool Swims()
+        {
+            return base.Swims();
+        }
     }
+
 }

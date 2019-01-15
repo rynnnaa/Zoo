@@ -14,9 +14,11 @@ namespace Zoo.Class
             Console.WriteLine("Owls make Hoo sounds");
         }
 
-        public override void EatWorms()
+        public override bool CanFly()
+
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }
+            

@@ -16,10 +16,16 @@ namespace Zoo.Class
             return true;
         }
 
-        public bool Hunt()
+        public virtual bool Hunt()
         {
             Console.WriteLine("I can hunt");
             return true;
+        }
+
+        public virtual bool Poops()
+        {
+            return true;
+
         }
     }
 }
