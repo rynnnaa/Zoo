@@ -6,5 +6,6 @@ namespace Zoo.Class
 {
     class Bird
     {
+        public
     }
 }

@@ -9,9 +9,10 @@ namespace Zoo.Class
         public bool Scaley { get; set; }
         public bool HasTail { get; set; }
         public bool HasGills { get; set; }
-    }
-    public void Swims()
-    {
-        Console.WriteLine("Fish can swim");
+
+        public void Swims()
+        {
+            Console.WriteLine("Fish can swim");
+        }
     }
 }
