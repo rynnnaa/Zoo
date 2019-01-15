@@ -4,8 +4,23 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    abstract class Sockeye : Fish
+    class Sockeye : Fish
     {
-        public override bool HasTail { get; set; }
+        public string IsRed { get; set; }
+
+        public virtual bool GoodSushi()
+        {
+            return true;
+        }
+
+        public override void Poops()
+        {
+            Console.WriteLine("Sockeye Poop");
+        }
+
+        public override void Swims()
+        {
+            Console.WriteLine("Sockeye Swim");
+        }
     }
 }

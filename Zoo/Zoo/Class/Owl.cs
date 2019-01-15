@@ -4,10 +4,15 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    abstract class Owl : Bird
+    class Owl : Bird
     {
-        public bool HarryPotterBird { get; set; }
-        public 
+        public virtual bool HarryPotterBird { get; set; }
 
+        public void MakesSounds()
+        {
+            Console.WriteLine("Owls make Hoo sounds");
+        }
+
+        public override string
     }
 }

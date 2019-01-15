@@ -29,6 +29,7 @@ namespace Zoo.Class
         }
 
         public abstract void Swims();
+        public abstract void Poops();
     }
 
 }

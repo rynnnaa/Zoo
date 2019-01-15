@@ -8,6 +8,11 @@ namespace Zoo.Class
     {
         public string Tasty { get; set; }
 
+        public override void Poops()
+        {
+            Console.WriteLine("Salmon poop");
+        }
+
         public override void Swims()
         {
             Console.WriteLine("Salmon can swim");
