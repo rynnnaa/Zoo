@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    class Owl : Bird
+    class Owl : Animal
     {
         public virtual bool HarryPotterBird { get; set; }
 
@@ -13,6 +13,19 @@ namespace Zoo.Class
             Console.WriteLine("Owls make Hoo sounds");
         }
 
-        public override string
+        public override void Swims()
+        {
+            Console.WriteLine("Owl's can swim");
+        }
+
+        public override void Poops()
+        {
+            Console.WriteLine("Owl's can poop");
+        }
+
+        public virtual string CanFly()
+        {
+            return "Thank you everyone for this!";
+        }
     }
 }

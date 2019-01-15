@@ -16,10 +16,9 @@ namespace Zoo.Class
             return true;
         }
 
-        public bool LaysEggs()
+        public string LaysEggs()
         {
-            Console.WriteLine("I can lay eggs");
-            return true;
+            return "I lay eggs"
         }
 
         public bool Hunt()
