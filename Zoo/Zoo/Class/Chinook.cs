@@ -4,8 +4,14 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    class Chinook
+    abstract class Chinook : Fish
     {
         public bool IsPink { get; set; }
+
+        public override void Poops()
+        {
+           Console.WriteLine("Chinnok Poop");
+        }
     }
+
 }

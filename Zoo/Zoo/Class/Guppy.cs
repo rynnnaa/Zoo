@@ -23,6 +23,12 @@ namespace Zoo.Class
         {
             Console.WriteLine("Guppies can swim");
         }
-     
+
+        public override bool LayEggs()
+        {
+            return true;
+        }
+
+
     }
 }
