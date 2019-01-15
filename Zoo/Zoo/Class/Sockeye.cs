@@ -4,9 +4,8 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    abstract class Owl : Bird
+    abstract class Sockeye : Fish
     {
-        public bool HarryPotterBird { get; set; }
-
+        public override bool HasTail { get; set; }
     }
 }
