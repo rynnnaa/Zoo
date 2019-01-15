@@ -10,7 +10,7 @@ namespace Zoo.Class
         public bool HasTail { get; set; }
         public bool HasGills { get; set; }
 
-        public bool Swims()
+        virtual public bool Swims()
         { 
         return true;
         }

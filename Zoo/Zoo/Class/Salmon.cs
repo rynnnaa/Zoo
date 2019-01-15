@@ -4,25 +4,15 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    class Salmon : Animal
+    class Salmon : Fish
     {
         public string Tasty { get; set; }
-        public override string ColdBlooded { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public override string Heterotrophy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string ColdBlooded { get; set; }
+        public override string Heterotrophy { get; set; }
 
-        public override void Poops()
+        public override bool Swims()
         {
-            Console.WriteLine("Salmon poop");
-        }
-
-        public override void Swims()
-        {
-            Console.WriteLine("Salmon can swim");
-        }
-
-        public string DontCloseEyes()
-        {
-            return "";
+            return base.Swims();
         }
 
     }

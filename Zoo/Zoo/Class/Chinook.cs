@@ -4,14 +4,15 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    abstract class Chinook : Fish
+    class Chinook : Fish
     {
         public bool IsPink { get; set; }
+        public override string ColdBlooded { get; set; }
+        public override string Heterotrophy { get; set; }
 
-        public override void Poops()
+        public bool IsKingSalmon()
         {
-           Console.WriteLine("Chinnok Poop");
+            return true;
         }
     }
-
 }

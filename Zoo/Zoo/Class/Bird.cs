@@ -10,11 +10,11 @@ namespace Zoo.Class
         abstract public bool Wings { get; set; }
         public string Beak { get; set; }
 
-        abstract public void EatWorms();
-
-        public virtual string CanFly()
+        public void EatWorms()
         {
-            return ("Bird's can fly");
+            Console.WriteLine("Birds eat Worms");
         }
+
+        abstract public string CanFly();
     }
 }

@@ -4,28 +4,19 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    class Owl : Animal
+    class Owl : Bird
     {
         public virtual bool HarryPotterBird { get; set; }
+        public override bool Wings { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public void MakesSounds()
         {
             Console.WriteLine("Owls make Hoo sounds");
         }
 
-        public override void Swims()
+        public override void EatWorms()
         {
-            Console.WriteLine("Owl's can swim");
-        }
-
-        public override void Poops()
-        {
-            Console.WriteLine("Owl's can poop");
-        }
-
-        public virtual string CanFly()
-        {
-            return "Owl's can fly!";
+            throw new NotImplementedException();
         }
     }
 }

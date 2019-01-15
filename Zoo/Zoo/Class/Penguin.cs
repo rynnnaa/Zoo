@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    class Penguin : Bird
+    abstract class Penguin : Bird
     {
         public bool BlackAndWhite { get; set; }
         public override bool Wings { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
