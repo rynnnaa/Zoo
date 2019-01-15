@@ -4,10 +4,8 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    abstract class Owl : Bird
+    class Chinook
     {
-        public bool HarryPotterBird { get; set; }
-        public 
-
+        public bool IsPink { get; set; }
     }
 }
