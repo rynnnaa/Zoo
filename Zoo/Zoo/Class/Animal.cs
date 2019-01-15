@@ -27,6 +27,8 @@ namespace Zoo.Class
             Console.WriteLine("I can hunt");
             return true;
         }
+
+        public abstract void Swims();
     }
 
 }

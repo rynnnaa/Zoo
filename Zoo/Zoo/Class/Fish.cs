@@ -10,9 +10,7 @@ namespace Zoo.Class
         public bool HasTail { get; set; }
         public bool HasGills { get; set; }
 
-        public void Swims()
-        {
-            Console.WriteLine("Fish can swim");
+        public override abstract void Swims();
         }
     }
 }

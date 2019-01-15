@@ -4,7 +4,13 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    class Salmon
+    class Salmon : Fish
     {
+        public string Tasty { get; set; }
+
+        public override void Swims()
+        {
+            Console.WriteLine("Salmon can swim");
+        }
     }
 }
