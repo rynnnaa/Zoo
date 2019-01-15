@@ -4,9 +4,11 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    class Salmon : Fish
+    class Salmon : Animal
     {
         public string Tasty { get; set; }
+        public override string ColdBlooded { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override string Heterotrophy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public override void Poops()
         {
@@ -17,5 +19,11 @@ namespace Zoo.Class
         {
             Console.WriteLine("Salmon can swim");
         }
+
+        public string DontCloseEyes()
+        {
+            return "";
+        }
+
     }
 }

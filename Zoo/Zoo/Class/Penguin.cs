@@ -7,16 +7,22 @@ namespace Zoo.Class
     class Penguin : Bird
     {
         public bool BlackAndWhite { get; set; }
+        public override bool Wings { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public void EatFish()
         {
             Console.WriteLine("Penguins Eat Fish");
         }
 
-        public virtual bool EatKrill()
+        public bool EatKrill()
         {
             Console.WriteLine("");
             return true;
+        }
+
+        public override void EatWorms()
+        {
+            Console.WriteLine("Penguins ");
         }
     }
 }

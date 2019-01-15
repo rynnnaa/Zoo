@@ -8,7 +8,7 @@ namespace Zoo.Class
     {
         public string IsRed { get; set; }
 
-        public virtual bool GoodSushi()
+        public bool GoodSushi()
         {
             return true;
         }
@@ -22,5 +22,7 @@ namespace Zoo.Class
         {
             Console.WriteLine("Sockeye Swim");
         }
+
+        public override string ColdBlooded { get; set; }
     }
 }

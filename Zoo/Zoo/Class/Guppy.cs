@@ -8,6 +8,7 @@ namespace Zoo.Class
     {
         public bool Colorful { get; set; }
         public virtual bool PetFish { get; set; }
+        public override string ColdBlooded { get; set; }
 
         public void IsTropical()
         {
@@ -21,9 +22,7 @@ namespace Zoo.Class
 
         public override void Swims()
         {
-            return true;
+            Console.WriteLine("Can swim");
         }
-
-
     }
 }

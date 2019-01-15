@@ -11,7 +11,17 @@ namespace Zoo.Class
         public bool HasGills { get; set; }
 
         public override abstract void Swims();
-    }
 
+        public string LaysEggs()
+        {
+            return "I lay eggs";
+        }
+
+        public virtual string DontCloseEyes()
+        {
+            return "Fish don't close their eyes";
+    
+        }
+    }
 }
 

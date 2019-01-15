@@ -25,7 +25,7 @@ namespace Zoo.Class
 
         public virtual string CanFly()
         {
-            return "Thank you everyone for this!";
+            return "Owl's can fly!";
         }
     }
 }
