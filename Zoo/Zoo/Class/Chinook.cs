@@ -19,5 +19,10 @@ namespace Zoo.Class
         {
             return base.Swims();
         }
+
+        public override bool Poops()
+        {
+            return base.Poops();
+        }
     }
 }

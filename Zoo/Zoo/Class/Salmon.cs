@@ -15,5 +15,10 @@ namespace Zoo.Class
             return base.Swims();
         }
 
+        public override bool Hunt()
+        {
+            return base.Hunt();
+        }
+
     }
 }

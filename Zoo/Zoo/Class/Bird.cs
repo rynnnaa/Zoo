@@ -15,6 +15,10 @@ namespace Zoo.Class
             Console.WriteLine("Birds eat Worms");
         }
 
-        abstract public bool CanFly();
+        public virtual void CanFly()
+        {
+            Console.WriteLine("Birds can fly");
+        }
+
     }
 }
