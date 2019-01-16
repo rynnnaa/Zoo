@@ -15,5 +15,14 @@ namespace Zoo.Class
             Console.WriteLine("Guppy's are a tropical fish");
         }
 
+        public override bool Poops()
+        {
+            return base.Poops();
+        }
+
+        public override string EatsFood()
+        {
+            return base.EatsFood();
+        }
     }
 }

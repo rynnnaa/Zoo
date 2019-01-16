@@ -9,8 +9,10 @@ namespace Zoo.Class
         public virtual string WarmBlooded { get; set; }
         public abstract string ColdBlooded { get; set; }
         public abstract string Heterotrophy { get; set; }
+        public virtual string CanMove { get; set; }
 
-        public string  EatsFood()
+
+        public virtual string  EatsFood()
         {
             return "I can eat food";
         }
