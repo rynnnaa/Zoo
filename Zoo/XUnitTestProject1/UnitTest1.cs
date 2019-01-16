@@ -22,7 +22,9 @@ namespace XUnitTestProject1
         [Fact]
         public void ProveInterface()
             {
-}
+            {
+
+            }
     }
 }
 
