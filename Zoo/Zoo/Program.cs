@@ -12,8 +12,8 @@ namespace Zoo
             Salmon salmon = new Salmon();
             Console.WriteLine("============SALMON============");
             Console.WriteLine(salmon.EatsFood());
-            Console.WriteLine($"Salmon '{salmon.Hunt()}");
-            Console.WriteLine($"Salmin '{ salmon.Swims() }");
+            Console.WriteLine($"Can I hunt ? {salmon.Hunt()}");
+            Console.WriteLine($"Can I swim ? { salmon.Swims() }");
         }
     }
 }

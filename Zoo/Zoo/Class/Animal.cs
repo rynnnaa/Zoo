@@ -10,10 +10,9 @@ namespace Zoo.Class
         public abstract string ColdBlooded { get; set; }
         public abstract string Heterotrophy { get; set; }
 
-        public bool EatsFood()
+        public string  EatsFood()
         {
-            Console.WriteLine("I can eat food");
-            return true;
+            return "I can eat food";
         }
 
         public virtual bool Hunt()
