@@ -16,6 +16,10 @@ namespace Zoo.Class
             return true;
         }
 
+        public bool Swim()
+        {
+            throw new NotImplementedException();
+        }
 
         public override bool Swims()
         {
