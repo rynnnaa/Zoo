@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Interfaces
 {
-    interface ICanBeEaten
+    public interface ICanBeEaten
     {
 
         bool RarelyEaten { get; set; }

@@ -16,19 +16,19 @@ namespace Zoo
             Owl owl = new Owl();
             Console.WriteLine("============OWL============");
             Console.WriteLine($"Owls have feathers {owl.Feathers}");
-            Console.WriteLine($"Owls are in the Harry Potter movie {owl.HarryPotterBird}");
+            Console.WriteLine($"Owls can fly {owl.CanFly()}");
             Console.WriteLine($"Owls have wings {owl.Wings}");
 
             Sockeye sockeye = new Sockeye();
             Console.WriteLine("============SOCKEYE============");
             Console.WriteLine(sockeye.EatsFood());
-            Console.WriteLine($"Sockeyes have Gills {sockeye.HasGills}");
+            Console.WriteLine($"Sockeyes lay eggs {sockeye.LaysEggs()}");
             Console.WriteLine($"Sockeye are { sockeye.Scaley} ");
 
             Chinook chinook = new Chinook();
             Console.WriteLine("============CHINOOK============");
             Console.WriteLine(chinook.EatsFood());
-            Console.WriteLine($"Chinook fish are {chinook.Heterotrophy}");
+            Console.WriteLine($"Chinook fish can ingest food {chinook.Heterotrophy}");
             Console.WriteLine($"Chinook fish have a tail { chinook.HasTail }");
 
 

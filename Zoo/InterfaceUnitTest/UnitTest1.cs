@@ -22,14 +22,15 @@ namespace InterfaceUnitTest
         [Fact]
         public void ProveInterface()
         {
-            Bird bird = new Bird
+            Bird bird = new Bird;
                 Assert.Equal
         }
 
         [Fact]
         public void ProveInheritance()
         {
-            Owl owl = new Owl
+            Salmon salmon = new Salmon
+           Assert.Equal
 
         }
     }
