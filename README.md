@@ -8,7 +8,7 @@ Actual Time to complete: 10 hours
 
 A hierarchical class structure of a zoo that contains 3 layers of inheritance with 5 concrete animals. OOP principles are being used by returning strings in the console to show the implementation and inheritance of methods and properties
 
-![Digital Drawing]()
+![Digital Drawing](https://github.com/rynnnaa/Zoo/blob/master/Zoo.png)
 
 INHERITANCE: enables the ability to pass on properties and methods of a class to its derived classes
 Example: The methods and properties are passed down from the Animal Class to its derived classes: warm blooded and cold blooded.
