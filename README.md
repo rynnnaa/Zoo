@@ -8,7 +8,7 @@ Actual Time to complete: 10 hours
 
 A hierarchical class structure of a zoo that contains 3 layers of inheritance with 5 concrete animals. OOP principles are being used by returning strings in the console to show the implementation and inheritance of methods and properties
 
-![Digital Drawing](https://github.com/rynnnaa/Zoo/blob/master/Zoo.png)
+![Digital Drawing](https://github.com/rynnnaa/Zoo/blob/master/Screenshot%20(12).png)
 
 OOP Principles:
 
