@@ -44,5 +44,4 @@ Purpose of the program is to undertsand how to use classes and interfaces
 
 To Run the program, user must click the start button (Green arrow) in Visual Studio.
 
-Successful Output:
 ![Program](https://github.com/rynnnaa/Zoo/blob/RYNA-LAB06/ZooProgram.PNG)
