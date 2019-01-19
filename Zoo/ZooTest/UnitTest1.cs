@@ -60,6 +60,7 @@ namespace ZooTest
         {
             Sockeye sockeye = new Sockeye();
             Assert.True(sockeye.Swims());
+        
         }
     }
 }

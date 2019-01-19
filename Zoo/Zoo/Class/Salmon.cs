@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Zoo.Interfaces;
 
-namespace Zoo.Class
+public namespace Zoo.Class
 {
     public abstract class Salmon : Fish, IHunt
     {

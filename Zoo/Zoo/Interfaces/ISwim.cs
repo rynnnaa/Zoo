@@ -8,5 +8,6 @@ namespace Zoo.Interfaces
     {
 
         bool Swim();
+        bool Swim(ISwim swim);
     }
 }
