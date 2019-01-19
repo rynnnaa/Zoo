@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    class Owl : Bird
+    public class Owl : Bird
     {
         public virtual bool HarryPotterBird { get; set; }
         public override bool Wings { get; set; }

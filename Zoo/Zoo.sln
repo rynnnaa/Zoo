@@ -5,11 +5,7 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo", "Zoo\Zoo.csproj", "{2F3EA9D6-B3FA-4BA2-9F20-BFEEC3CA3DA3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66022E93-222F-41D1-AF86-ADF15D8E9716}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{959B7FFB-E603-4A4C-9DE8-43E39270248D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceUnitTest", "InterfaceUnitTest\InterfaceUnitTest.csproj", "{9B5F99E4-5ED6-4792-9551-298283D3630D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooTest", "ZooTest\ZooTest.csproj", "{DFD372E5-5980-4DB8-81B5-7769579C4D8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +17,10 @@ Global
 		{2F3EA9D6-B3FA-4BA2-9F20-BFEEC3CA3DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F3EA9D6-B3FA-4BA2-9F20-BFEEC3CA3DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F3EA9D6-B3FA-4BA2-9F20-BFEEC3CA3DA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9B5F99E4-5ED6-4792-9551-298283D3630D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B5F99E4-5ED6-4792-9551-298283D3630D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B5F99E4-5ED6-4792-9551-298283D3630D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B5F99E4-5ED6-4792-9551-298283D3630D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD372E5-5980-4DB8-81B5-7769579C4D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD372E5-5980-4DB8-81B5-7769579C4D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD372E5-5980-4DB8-81B5-7769579C4D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD372E5-5980-4DB8-81B5-7769579C4D8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

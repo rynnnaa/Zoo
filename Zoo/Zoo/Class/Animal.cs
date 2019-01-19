@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    abstract class Animal
+    public abstract class Animal
     {
         public virtual string WarmBlooded { get; set; }
         public abstract string ColdBlooded { get; set; }

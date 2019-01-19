@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Zoo.Interfaces;
 
 namespace Zoo.Class
 {
-    class Sockeye : Fish
+    public class Sockeye : Fish, ISwim
     {
         public string IsRed { get; set; }
         public override string ColdBlooded { get; set; }
@@ -15,9 +16,20 @@ namespace Zoo.Class
             return true;
         }
 
+        public bool Swim()
+        {
+            throw new NotImplementedException();
+        }
+
         public override bool Swims()
         {
             return base.Swims();
+        }
+
+        bool ISwim.Swim(ISwim swim)
+        {
+            Console.WriteLine("I can swim");
+            return true;
         }
     }
 
