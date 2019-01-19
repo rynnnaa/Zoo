@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Class
 {
-    class Chinook : Fish
+    public class Chinook : Fish
     {
         public bool IsPink { get; set; }
         public override string ColdBlooded { get; set; }
