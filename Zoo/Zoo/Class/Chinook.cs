@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Zoo.Interfaces;
 
 namespace Zoo.Class
 {
-    public class Chinook : Fish
+    public class Chinook : Fish, IHunt
     {
         public bool IsPink { get; set; }
         public override string ColdBlooded { get; set; }
@@ -20,9 +21,21 @@ namespace Zoo.Class
             return base.Swims();
         }
 
-        public override bool Poops()
+        public override void Poops()
         {
-            return base.Poops();
+            return;
         }
+
+
+        public override void CanLive()
+        {
+            return;
+        }
+
+        public override bool Hunt()
+        {
+            return base.Hunt();
+        }
+
     }
 }

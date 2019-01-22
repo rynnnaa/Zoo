@@ -12,7 +12,7 @@ namespace Zoo.Class
         public virtual string CanMove { get; set; }
 
 
-        public virtual string  EatsFood()
+        public virtual string EatsFood()
         {
             return "I can eat food";
         }
@@ -23,10 +23,9 @@ namespace Zoo.Class
             return true;
         }
 
-        public virtual bool Poops()
-        {
-            return true;
+        public abstract void Poops();
 
-        }
+        public abstract void CanLive();
+
     }
 }

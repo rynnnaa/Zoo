@@ -5,20 +5,14 @@ using Zoo.Interfaces;
 
 namespace Zoo.Class
 {
-    public class Sockeye : Fish, ISwim, IHunt
+    class AfricanPenguin : Animal, ISwim
     {
-        public string IsRed { get; set; }
         public override string ColdBlooded { get; set; }
-        public override string Heterotrophy{ get; set; }
+        public override string Heterotrophy { get; set; }
 
         public override void CanLive()
         {
-            throw new NotImplementedException();
-        }
-
-        public bool GoodSushi()
-        {
-            return true;
+            return;
         }
 
         public override void Poops()
@@ -29,8 +23,7 @@ namespace Zoo.Class
         public bool Swim(ISwim swim)
         {
             return true;
-        
+
         }
     }
-
 }

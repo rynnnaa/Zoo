@@ -62,5 +62,11 @@ namespace ZooTest
             Assert.True(sockeye.Swims());
         
         }
+
+        [Fact]
+        public void AfricanPenguinIsAnimal()
+        {
+            AfricanPe
+        }
     }
 }

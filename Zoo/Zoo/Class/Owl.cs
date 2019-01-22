@@ -17,9 +17,8 @@ namespace Zoo.Class
         public override bool CanFly()
         {
             return true;
+
         }
-
-
     }
 }
             

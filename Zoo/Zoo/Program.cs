@@ -31,6 +31,7 @@ namespace Zoo
             Console.WriteLine($"Chinook fish can ingest food {chinook.Heterotrophy}");
             Console.WriteLine($"Chinook fish have a tail { chinook.HasTail }");
 
+            AfricanPenguin africanpenguin = new AfricanPenguin();
 
 
 
