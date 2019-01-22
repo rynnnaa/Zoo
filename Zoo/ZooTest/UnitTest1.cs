@@ -28,10 +28,10 @@ namespace ZooTest
         }
 
         [Fact]
-        public void GuppiesPoop()
+        public void GuppiesEatFood()
         {
             Guppy guppy = new Guppy();
-            Assert.True(guppy.Poops());
+            Equals(guppy.EatsFood());
         }
 
         [Fact]
@@ -68,6 +68,13 @@ namespace ZooTest
         {
             AfricanPenguin africanPenguin = new AfricanPenguin();
             Assert.True(africanPenguin is Bird);
+        }
+
+        [Fact]
+        public void AfricanPenguinHasWings()
+        {
+            AfricanPenguin africanPenguin = new AfricanPenguin();
+            Assert.True(africanPenguin.CanFly());
         }
     }
 }
