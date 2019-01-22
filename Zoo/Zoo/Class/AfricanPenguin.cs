@@ -5,25 +5,21 @@ using Zoo.Interfaces;
 
 namespace Zoo.Class
 {
-    class AfricanPenguin : Animal, ISwim
+    public class AfricanPenguin : Bird, ISwim
     {
-        public override string ColdBlooded { get; set; }
-        public override string Heterotrophy { get; set; }
 
-        public override void CanLive()
-        {
-            return;
-        }
+        public override bool Wings { get; set; }
 
-        public override void Poops()
-        {
-            return;
-        }
 
         public bool Swim(ISwim swim)
         {
             return true;
 
+        }
+
+        public override bool CanFly()
+        {
+            return base.CanFly();
         }
     }
 }

@@ -34,7 +34,7 @@ namespace Zoo.Class
         public bool Swim(ISwim swim)
         {
             return true;
-
         }
+
     }
 }

@@ -32,8 +32,10 @@ namespace Zoo
             Console.WriteLine($"Chinook fish have a tail { chinook.HasTail }");
 
             AfricanPenguin africanpenguin = new AfricanPenguin();
-
-
+            Console.WriteLine("============AFRICAN PENGUIN============");
+            Console.WriteLine($"African Penguin has feathers {africanpenguin.Feathers}");
+            Console.WriteLine($"African Penguins can't fly {africanpenguin.CanFly()}");
+            Console.WriteLine($"African Penguin have Wings { africanpenguin.Wings}");
 
         }
     }

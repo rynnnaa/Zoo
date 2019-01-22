@@ -64,9 +64,10 @@ namespace ZooTest
         }
 
         [Fact]
-        public void AfricanPenguinIsAnimal()
+        public void AfricanPenguinIsBird()
         {
-            AfricanPe
+            AfricanPenguin africanPenguin = new AfricanPenguin();
+            Assert.True(africanPenguin is Bird);
         }
     }
 }
