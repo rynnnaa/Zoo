@@ -7,7 +7,7 @@ namespace Zoo.Class
     public abstract class Penguin : Bird
     {
         public bool BlackAndWhite { get; set; }
-        public override bool Wings { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override bool Wings { get; set; }
 
         public void EatFish()
         {

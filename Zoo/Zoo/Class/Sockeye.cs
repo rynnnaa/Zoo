@@ -5,31 +5,31 @@ using Zoo.Interfaces;
 
 namespace Zoo.Class
 {
-    public class Sockeye : Fish, ISwim
+    public class Sockeye : Fish, ISwim, IHunt
     {
         public string IsRed { get; set; }
         public override string ColdBlooded { get; set; }
         public override string Heterotrophy{ get; set; }
+
+        public override void CanLive()
+        {
+            throw new NotImplementedException();
+        }
 
         public bool GoodSushi()
         {
             return true;
         }
 
-        public bool Swim()
+        public override void Poops()
         {
-            throw new NotImplementedException();
+            return;
         }
 
-        public override bool Swims()
+        public bool Swim(ISwim swim)
         {
-            return base.Swims();
-        }
-
-        bool ISwim.Swim(ISwim swim)
-        {
-            Console.WriteLine("I can swim");
             return true;
+        
         }
     }
 

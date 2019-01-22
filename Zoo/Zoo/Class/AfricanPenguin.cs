@@ -1,24 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Zoo.Interfaces;
 
 namespace Zoo.Class
 {
-    public class Owl : Bird
+    public class AfricanPenguin : Bird, ISwim
     {
-        public virtual bool HarryPotterBird { get; set; }
+
         public override bool Wings { get; set; }
 
-        public void MakesSounds()
-        {
-            Console.WriteLine("Owls make Hoo sounds");
-        }
 
-        public override bool CanFly()
+        public bool Swim(ISwim swim)
         {
             return true;
 
         }
+
+        public override bool CanFly()
+        {
+            return base.CanFly();
+        }
     }
 }
-            

@@ -4,10 +4,8 @@ using System.Text;
 
 namespace Zoo.Interfaces
 {
-    interface ISwim
+    public interface ISwim
     {
-
-        bool Swim();
         bool Swim(ISwim swim);
     }
 }
